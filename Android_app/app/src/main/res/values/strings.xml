@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="button">Button</string>
+    <string name="hint">hint</string>
+    <string name="textview">Sélectionnez une valeur</string>
+    <string name="nombre">nombre</string>
+    <string name="Edit">Valeur :</string>
+    <string name="radiobutton">Euro to Dollar</string>
+    <string name="radiobutton2">Dollar to Euro</string>
+    <string name="translate">Value to translate</string>
+    <string name="buttonTranslate">change</string>
+
+
+</resources>

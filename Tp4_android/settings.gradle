@@ -1,0 +1,2 @@
+rootProject.name = "Tp4_android"
+include ':app'

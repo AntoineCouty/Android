@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "453220188842",
+    "project_id": "android-couty-blanchard",
+    "storage_bucket": "android-couty-blanchard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453220188842:android:0833a8a07e2baf3ffc46d3",
+        "android_client_info": {
+          "package_name": "com.example.android_projet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453220188842-5qcbuf1dori5bqc4leaa744ca13k6th6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNb3HuV_1TyEU1SvHBJ4QefpfCIgIWDgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453220188842-5qcbuf1dori5bqc4leaa744ca13k6th6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

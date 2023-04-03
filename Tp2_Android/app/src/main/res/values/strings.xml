@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tp2_Android</string>
+    <string name="Chiffrement">chiffrement</string>
+    <string name="Dechiffrement">dechiffrement</string>
+    <string name="dechiffrer">Déchiffrer</string>
+    <string name="Value">Value :</string>
+    <string name="resultat">TextView</string>
+    <string name="buttonChiffre">Chiffrer</string>
+    <string name="buttonRetour">Menu principal</string>
+    <string name="key">key :</string>
+    <string name="name">Name</string>
+    <string name="textview">TextView</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="firstFragment">First Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_clair">Text clair :</string>
+    <string name="chiffrer">Chiffrer</string>
+    <string name="text_chiffre">text Chiffré :</string>
+
+</resources>

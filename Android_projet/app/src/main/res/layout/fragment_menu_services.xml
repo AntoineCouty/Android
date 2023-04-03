@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/appbar"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            app:layout_constraintHorizontal_bias="0.0">
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageButton
+                    android:src="@android:drawable/ic_menu_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/imageButton2"
+                    android:backgroundTint="?android:attr/panelBackground" android:tint="@color/teal_200"
+                    android:baselineAligned="false"
+                    app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+            <ImageButton
+                    android:src="@drawable/baseline_account_circle_black_24dp"
+                    android:layout_width="56dp"
+                    android:layout_height="46dp" android:id="@+id/profilSet"
+                    android:backgroundTint="?android:attr/panelBackground" android:tint="@color/teal_200"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+            <EditText
+                    android:layout_width="174dp"
+                    android:layout_height="44dp"
+                    android:inputType="textPersonName"
+                    android:hint="Rechercher"
+                    android:ems="10"
+                    android:id="@+id/editTextTextPersonName"
+                    app:layout_constraintEnd_toStartOf="@+id/imageButton2" app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appbar"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+        <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        </GridLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:clickable="true"
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.95"
+            app:layout_constraintHorizontal_bias="0.10"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:clickable="true"
+            android:id="@+id/create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.95"
+            app:layout_constraintHorizontal_bias="0.90"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

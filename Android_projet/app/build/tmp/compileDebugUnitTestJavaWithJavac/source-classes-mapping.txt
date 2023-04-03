@@ -1,0 +1,2 @@
+com/example/android_projet/ExampleUnitTest.java
+ com.example.android_projet.ExampleUnitTest

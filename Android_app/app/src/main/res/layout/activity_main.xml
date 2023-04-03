@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity" android:orientation="vertical">
+    <TextView
+            android:text="@string/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView" tools:layout_editor_absoluteY="261dp"
+            tools:layout_editor_absoluteX="177dp" tools:ignore="MissingConstraints"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:inputType="textPersonName"
+            android:hint="@string/Edit"
+            android:ems="10"
+            android:id="@+id/editTextTextPersonName" android:layout_weight="1" android:importantForAutofill="no"/>
+    <Button
+            android:text="@string/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_gravity="bottom|end"
+            tools:ignore="MissingConstraints,RtlHardcoded"
+            android:onClick="generateToast" tools:layout_editor_absoluteY="341dp"
+            tools:layout_editor_absoluteX="161dp"/>
+</LinearLayout>

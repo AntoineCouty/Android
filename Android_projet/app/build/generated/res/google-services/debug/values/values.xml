@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">453220188842-5qcbuf1dori5bqc4leaa744ca13k6th6.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">453220188842</string>
+    <string name="google_api_key" translatable="false">AIzaSyCNb3HuV_1TyEU1SvHBJ4QefpfCIgIWDgA</string>
+    <string name="google_app_id" translatable="false">1:453220188842:android:0833a8a07e2baf3ffc46d3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCNb3HuV_1TyEU1SvHBJ4QefpfCIgIWDgA</string>
+    <string name="google_storage_bucket" translatable="false">android-couty-blanchard.appspot.com</string>
+    <string name="project_id" translatable="false">android-couty-blanchard</string>
+</resources>

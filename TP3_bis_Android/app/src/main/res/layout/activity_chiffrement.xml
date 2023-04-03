@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Chiffrement">
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/name"
+            android:ems="10"
+            android:id="@+id/editTextTextPersonName" tools:layout_editor_absoluteY="38dp"
+            tools:layout_editor_absoluteX="19dp"/>
+    <EditText
+            android:hint="@string/key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/keyValue"/>
+    <Button
+            android:text="@string/buttonChiffre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button" tools:layout_editor_absoluteY="116dp"
+            android:onClick="Chiffre"
+            tools:layout_editor_absoluteX="19dp"/>
+
+</LinearLayout>

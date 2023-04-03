@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_launcher_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.15"/>
+
+    <TextView
+            android:id="@+id/titleShowService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#TITLE#"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.05"/>
+
+    <TextView
+            android:id="@+id/descriptionShowService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#REMPLIR#"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.40"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="160dp"
+            android:layout_height="31dp" android:id="@+id/userName"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/descriptionShowService" android:layout_marginTop="60dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="160dp"
+            android:layout_height="31dp" android:id="@+id/userLastName"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/userName"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="160dp"
+            android:layout_height="31dp" android:id="@+id/userMail"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/userLastName"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="160dp"
+            android:layout_height="31dp" android:id="@+id/userTel"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/userMail"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
