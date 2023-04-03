@@ -4,7 +4,6 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 public class Service implements Parcelable {
-
     private String title;
     private String description;
     private String localisation;
@@ -34,21 +33,10 @@ public class Service implements Parcelable {
         user = in.readString();
     }
 
-    public String getDescription() {
-        return description;
-    }
-
-    public String getLocalisation() {
-        return localisation;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public String getUser() {
-        return user;
-    }
+    public String getDescription() {  return description; }
+    public String getLocalisation() { return localisation; }
+    public String getTitle() { return title; }
+    public String getUser() { return user; }
 
     @Override
     public int describeContents() { return 0; }

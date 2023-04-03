@@ -1,19 +1,15 @@
 package com.example.android_projet;
 
-import android.graphics.Bitmap;
 import android.os.Parcel;
 import android.os.Parcelable;
-
-import java.io.ByteArrayOutputStream;
 
 public class User implements Parcelable{
     private String mail;
     private String nom;
     private String prenom;
     private String telephone;
-    private Bitmap profil_img;
 
-    public static final Parcelable.Creator<User> CREATOR = new Parcelable.Creator<User>() {
+    public static final Creator<User> CREATOR = new Creator<User>() {
         @Override
         public User createFromParcel(Parcel in) {return new User(in);}
 
@@ -23,39 +19,23 @@ public class User implements Parcelable{
 
     public User(){}
 
-    public User(String mail, String nom, String prenom, String telephone, Bitmap profil_img) {
+    public User(String mail, String nom, String prenom, String telephone) {
         this.mail = mail;
         this.nom = nom;
         this.prenom = prenom;
         this.telephone = telephone;
-        this.profil_img = profil_img;
     }
 
-    public String getMail() {
-        return mail;
-    }
-
-    public String getNom() {
-        return nom;
-    }
-
-    public String getPrenom() {
-        return prenom;
-    }
-
-    public String getTelephone() {
-        return telephone;
-    }
-
+    public String getMail() { return mail; }
+    public String getNom() { return nom; }
+    public String getPrenom() { return prenom; }
+    public String getTelephone() { return telephone; }
 
     protected User(Parcel in) {
         mail = in.readString();
         nom = in.readString();
         prenom = in.readString();
         telephone = in.readString();
-        ByteArrayOutputStream output = new ByteArrayOutputStream(profil_img.getByteCount());
-        profil_img.compress(Bitmap.CompressFormat.PNG, 100, output);
-
     }
 
     @Override
